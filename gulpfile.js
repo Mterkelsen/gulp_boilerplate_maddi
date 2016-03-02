@@ -84,7 +84,7 @@ gulp.task('image', function(){
 
 gulp.task('browser-sync', function(){
       browsersync.init({
-        proxy: 'C:\Users\Jens\Desktop\Project management\gulp_boilerplate\my_project'
+        proxy: 'localhost:8081/htdocs/gulp_boilerplate_maddi'
       });
 });
 
